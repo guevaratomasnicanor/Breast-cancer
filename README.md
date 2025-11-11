@@ -25,6 +25,7 @@ El dataset contiene información sobre características microscópicas de célul
 
 ## 🧹 Limpieza de datos
 
+
 - Sin **valores faltantes significativos**  
 - Se normalizaron variables numéricas para mejorar el desempeño del modelo  
 - Se eliminaron duplicados y se codificó la variable objetivo como binaria (0 = benigno, 1 = maligno)
@@ -36,7 +37,7 @@ El dataset contiene información sobre características microscópicas de célul
 - Tumores con valores **altos de `Cl.thickness`, `Cell.size`, `Marg.adhesion`, `Epith.c.size`, `Bare.nuclei`, `Bland.chromatin`, `Normal.nucleoli` y `Mitoses`** tienen mayor probabilidad de ser **malignos**.  
 - Las variables **`Bare.nuclei`** y **`Cl.thickness`** son las más determinantes según la importancia del modelo.  
 - No hay diferencias significativas entre muestras por paciente, lo que sugiere un dataset bien balanceado.
- ![Boxplot](Boxplots.png)
+<img width="1342" height="692" alt="Boxplots" src="https://github.com/user-attachments/assets/719fbe29-c6ef-49e9-9662-30bacde000fa" />
 
 ---
 
