@@ -45,7 +45,7 @@ El dataset contiene información sobre características microscópicas de célul
 
 Se probaron distintos modelos de clasificación supervisada.
 
-**Mejor modelo:** `Gradient Boosting`
+**Mejor modelo:** `Gradient Boosting`: Descubre el 97% de los Tumores malignos, sin falsos positivos. 
 
 | Modelo | Accuracy | Precision | Recall | F1 Score |
 |---------|-----------|-----------|---------|-----------|
